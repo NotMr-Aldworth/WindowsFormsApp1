@@ -52,6 +52,7 @@
             this.lblmessage.Size = new System.Drawing.Size(50, 13);
             this.lblmessage.TabIndex = 1;
             this.lblmessage.Text = "Message";
+            this.lblmessage.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblmessage_MouseClick);
             // 
             // lblinstruction
             // 

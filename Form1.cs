@@ -19,12 +19,18 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+        string name = txtinput.Text;
+        lblmessage.Text = "Greetings " + name;
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            //hello
+   
+        }
+
+        private void lblmessage_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
